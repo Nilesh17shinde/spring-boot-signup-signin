@@ -1,4 +1,4 @@
-# Spring Boot Login example with Spring Security, MySQL and JWT
+## Spring Boot Login example with Spring Security, MySQL and JWT
 Build a Spring Boot Login and Registration example (Rest API) that supports JWT with HttpOnly Cookie. You’ll know:
 
 - Appropriate Flow for User Login and Registration with JWT and HttpOnly Cookies
