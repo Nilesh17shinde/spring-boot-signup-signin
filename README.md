@@ -1,11 +1,5 @@
-
- 
- 
- 
- 
- 
- 
- Configure Spring Datasource, JPA, App properties using MySQL 
+# App Properties
+# Configure Spring Datasource, JPA, App properties using MySQL 
  
  spring.datasource.url= jdbc:mysql://localhost:3307/testdb?useSSL=false
 spring.datasource.username= root
@@ -14,7 +8,6 @@ spring.datasource.password= root
 spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQLDialect
 spring.jpa.hibernate.ddl-auto=update
 
-# App Properties
 bezkoder.app.jwtCookieName= bezkoder
 bezkoder.app.jwtSecret= ======================BezKoder=Spring===========================
 bezkoder.app.jwtExpirationMs= 30000
