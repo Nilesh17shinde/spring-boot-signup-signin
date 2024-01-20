@@ -1,3 +1,10 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
  Configure Spring Datasource, JPA, App properties using MySQL 
  
  spring.datasource.url= jdbc:mysql://localhost:3307/testdb?useSSL=false
