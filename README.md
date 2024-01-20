@@ -1,4 +1,3 @@
-# App Properties
 # Configure Spring Datasource, JPA, App properties using MySQL 
  
  spring.datasource.url= jdbc:mysql://localhost:3307/testdb?useSSL=false
@@ -12,15 +11,15 @@ bezkoder.app.jwtCookieName= bezkoder
 bezkoder.app.jwtSecret= ======================BezKoder=Spring===========================
 bezkoder.app.jwtExpirationMs= 30000
 
-Dependencys
-MySQL
+#Dependencys
+#MySQL
     <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
     </dependency>
 
-JWT
+#JWT
     <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
