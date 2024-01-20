@@ -32,6 +32,7 @@
 ## Configure Spring Datasource, JPA, App properties
 - For MySQL
 ```
+#By Default mySQL port No is 3306 in my case i have change my port no 3307
 spring.datasource.url= jdbc:mysql://localhost:3307/testdb?useSSL=false
 spring.datasource.username= root
 spring.datasource.password= root
